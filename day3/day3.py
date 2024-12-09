@@ -1,7 +1,7 @@
 import regex
 
-def read_data(input_file_dir):
-    with open(input_file_dir, 'r') as file:
+def read_data(path):
+    with open(path, 'r') as file:
         return file.read()
 
 def part_one(mem):
